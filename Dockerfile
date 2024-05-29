@@ -8,6 +8,5 @@ LABEL maintainer="gro5@aber.ac.uk"
 RUN cd /opt && \
     git clone https://github.com/gro5-AberUni/ALOS-LBand.git && \
     cd ALOS-LBand && \
-    pip install . && \
     cd /opt && \
     sync
