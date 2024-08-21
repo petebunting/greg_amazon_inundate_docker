@@ -12,6 +12,4 @@ RUN cd /opt && \
     sync
 
 WORKDIR /opt/ALOS-LBand/Scripts/Classification
-COPY radwetl_amazon_meta.tar.gz /opt/ALOS-LBand/Scripts/Classification/radwetl_amazon_meta.tar.gz
-RUN cd /opt/ALOS-LBand/Scripts/Classification && tar -zxf radwetl_amazon_meta.tar.gz \
-    && rm /opt/ALOS-LBand/Scripts/Classification/radwetl_amazon_meta.tar.gz 
+
